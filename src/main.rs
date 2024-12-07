@@ -1,9 +1,13 @@
 mod day1;
 mod day2;
 mod day3;
+mod day4;
+mod day5;
 // use day1::*;
 // use day2::*;
-use day3::*;
+// use day3::*;
+// use day4::*;
+use day5::*;
 use std::env;
 
 fn main() {
@@ -34,11 +38,31 @@ fn main() {
     } */
 
     // DAY 3
-    let result = day3_p1(&args[1]);
+    /* let result = day3_p1(&args[1]);
     if result.is_some() {
         println!("part 1 : {}", result.unwrap());
     }
     let result = day3_p2(&args[1]);
+    if result.is_some() {
+        println!("part 2 : {}", result.unwrap());
+    } */
+
+    // DAY 4
+    /* let result = day4_p1(&args[1]);
+    if result.is_some() {
+        println!("part 1 : {}", result.unwrap());
+    }
+    let result = day4_p2(&args[1]);
+    if result.is_some() {
+        println!("part 2 : {}", result.unwrap());
+    } */
+
+    // DAY 5
+    let result = day5_p1(&args[1]);
+    if result.is_some() {
+        println!("part 1 : {}", result.unwrap());
+    }
+    let result = day5_p2(&args[1]);
     if result.is_some() {
         println!("part 2 : {}", result.unwrap());
     }
