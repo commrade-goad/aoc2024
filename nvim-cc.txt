@@ -1,1 +1,1 @@
-cargo run --release day1.txt
+RUSTFLAGS="-C target-cpu=native" cargo build --release && cargo run --release day7.txt

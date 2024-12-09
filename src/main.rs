@@ -3,11 +3,12 @@ mod day2;
 mod day3;
 mod day4;
 mod day5;
-// use day1::*;
-// use day2::*;
-// use day3::*;
-// use day4::*;
-use day5::*;
+mod day6;
+mod day6r;
+mod day7;
+// use day6::*;
+// use day6r::*;
+use day7::*;
 use std::env;
 
 fn main() {
@@ -17,52 +18,11 @@ fn main() {
         std::process::exit(1);
     }
 
-    // DAY 1
-    /* let result = day1_p1(&args[1]);
+    let result = part1(&args[1]);
     if result.is_some() {
         println!("part 1 : {}", result.unwrap());
     }
-    let result = day1_p2("day1.txt");
-    if result.is_some() {
-        println!("part 2 : {}", result.unwrap());
-    } */
-
-    // DAY 2
-    /* let result = day2_p1(&args[1]);
-    if result.is_some() {
-        println!("part 1 : {}", result.unwrap());
-    }
-    let result = day2_p2(&args[1]);
-    if result.is_some() {
-        println!("part 2 : {}", result.unwrap());
-    } */
-
-    // DAY 3
-    /* let result = day3_p1(&args[1]);
-    if result.is_some() {
-        println!("part 1 : {}", result.unwrap());
-    }
-    let result = day3_p2(&args[1]);
-    if result.is_some() {
-        println!("part 2 : {}", result.unwrap());
-    } */
-
-    // DAY 4
-    /* let result = day4_p1(&args[1]);
-    if result.is_some() {
-        println!("part 1 : {}", result.unwrap());
-    }
-    let result = day4_p2(&args[1]);
-    if result.is_some() {
-        println!("part 2 : {}", result.unwrap());
-    } */
-
-    // DAY 5
-    let result = day5_p1(&args[1]);
-    if result.is_some() {
-        println!("part 1 : {}", result.unwrap());
-    }
-    let result = day5_p2(&args[1]);
+    let result = part2(&args[1]);
     if result.is_some() {
         println!("part 2 : {}", result.unwrap());
     }
