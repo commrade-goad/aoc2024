@@ -1,14 +1,18 @@
-mod day1;
-mod day2;
-mod day3;
-mod day4;
-mod day5;
-mod day6;
-mod day6r;
-mod day7;
+//mod day1;
+//mod day2;
+//mod day3;
+//mod day4;
+//mod day5;
+//mod day6;
+//mod day6r;
+//mod day7;
+//mod day8;
+mod day9;
 // use day6::*;
 // use day6r::*;
-use day7::*;
+//use day7::*;
+//use day8::*;
+use day9::*;
 use std::env;
 
 fn main() {
