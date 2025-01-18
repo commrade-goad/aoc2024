@@ -73,7 +73,6 @@ pub fn part1(fpath: &str) -> Option<usize> {
     let bufoch: Vec<char> = buff.chars().collect();
     let mut gid: i32 = 0;
     let mut dir;
-    // 2333133121414131402
     for i in 0..bufoch.len() {
         if i % 2 == 0 {
             dir = false;
